@@ -90,7 +90,7 @@ namespace Calculadora
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(19, 184);
+            this.label3.Location = new System.Drawing.Point(19, 221);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(116, 16);
             this.label3.TabIndex = 4;
@@ -171,7 +171,7 @@ namespace Calculadora
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(257, 184);
+            this.button1.Location = new System.Drawing.Point(141, 179);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(97, 24);
             this.button1.TabIndex = 7;
@@ -209,7 +209,7 @@ namespace Calculadora
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PowderBlue;
-            this.ClientSize = new System.Drawing.Size(480, 220);
+            this.ClientSize = new System.Drawing.Size(480, 246);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.groupBox1);
@@ -222,8 +222,8 @@ namespace Calculadora
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(496, 259);
-            this.MinimumSize = new System.Drawing.Size(496, 259);
+            this.MaximumSize = new System.Drawing.Size(496, 285);
+            this.MinimumSize = new System.Drawing.Size(496, 285);
             this.Name = "Calculadora";
             this.Text = "Calculadora";
             this.Load += new System.EventHandler(this.Calculadora_Load);

@@ -13,10 +13,9 @@ namespace Calculadora
     public partial class Calculadora : Form
     {
 
-        int D1 = 0;
-        int D2 = 0;
-        int Result = 0;
-
+        decimal D1 = 0;
+        decimal D2 = 0;
+        decimal Result = 0;
 
         public Calculadora()
         {
@@ -36,7 +35,6 @@ namespace Calculadora
                 e.Handled = true;
             }
 
-            // only allow one decimal point
             if ((e.KeyChar == '.') && ((sender as TextBox).Text.IndexOf('.') > -1))
             {
                 e.Handled = true;
@@ -55,7 +53,6 @@ namespace Calculadora
                 e.Handled = true;
             }
 
-            // only allow one decimal point
             if ((e.KeyChar == '.') && ((sender as TextBox).Text.IndexOf('.') > -1))
             {
                 e.Handled = true;
@@ -72,8 +69,8 @@ namespace Calculadora
 
         private void button1_Click(object sender, EventArgs e)
         {
-            D1 = Convert.ToInt32(textBox1.Text);
-            D2 = Convert.ToInt32(textBox2.Text);
+            D1 = Convert.ToDecimal(textBox1.Text);
+            D2 = Convert.ToDecimal(textBox2.Text);
 
           
 
@@ -81,6 +78,7 @@ namespace Calculadora
 
             if (Sumar.Checked == true)
             {
+               
 
                 Result = (D1 + D2);
 
@@ -90,6 +88,7 @@ namespace Calculadora
 
             if (Restar.Checked == true)
             {
+                //Result = Convert.ToDecimal(0.00);
 
                 Result = (D1 - D2);
                 label3.Text = "El resultado es: " + Result;
@@ -98,6 +97,7 @@ namespace Calculadora
 
             if (Multiplicar.Checked == true)
             {
+            
 
                 Result = (D1 * D2);
                 label3.Text = "El resultado es: " + Result;
@@ -106,6 +106,7 @@ namespace Calculadora
 
             if (Dividir.Checked == true)
             {
+               
 
                 Result = (D1 / D2);
                 label3.Text = "El resultado es: " + Result;
@@ -118,6 +119,8 @@ namespace Calculadora
             textBox1.Text = "";
             textBox2.Text = "";
             label3.Text = "El resultado es: ";
+
+           
 
             Sumar.Checked = false;
             Restar.Checked = false;
@@ -133,4 +136,6 @@ namespace Calculadora
             Application.Exit();
         }
     }
+
+    
 }
