@@ -51,9 +51,9 @@ namespace Calculadora
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(127, 90);
+            this.textBox1.Location = new System.Drawing.Point(138, 88);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.Size = new System.Drawing.Size(124, 20);
             this.textBox1.TabIndex = 0;
             this.textBox1.WordWrap = false;
             this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
@@ -62,7 +62,7 @@ namespace Calculadora
             // 
             this.textBox2.Location = new System.Drawing.Point(138, 138);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
+            this.textBox2.Size = new System.Drawing.Size(125, 20);
             this.textBox2.TabIndex = 1;
             this.textBox2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox2_KeyPress);
             // 
@@ -70,7 +70,7 @@ namespace Calculadora
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(19, 92);
+            this.label1.Location = new System.Drawing.Point(36, 92);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(96, 16);
             this.label1.TabIndex = 2;
@@ -104,7 +104,7 @@ namespace Calculadora
             this.groupBox1.Controls.Add(this.Restar);
             this.groupBox1.Controls.Add(this.Sumar);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(257, 46);
+            this.groupBox1.Location = new System.Drawing.Point(284, 58);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(196, 119);
             this.groupBox1.TabIndex = 5;

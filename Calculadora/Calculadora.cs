@@ -29,7 +29,7 @@ namespace Calculadora
 
 
 
-            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) &&
+            /*if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) &&
                 (e.KeyChar != '.'))
             {
                 e.Handled = true;
@@ -38,7 +38,7 @@ namespace Calculadora
             if ((e.KeyChar == '.') && ((sender as TextBox).Text.IndexOf('.') > -1))
             {
                 e.Handled = true;
-            }
+            }*/
 
 
         }
@@ -47,7 +47,7 @@ namespace Calculadora
         {
 
 
-            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) &&
+           /* if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) &&
                             (e.KeyChar != '.'))
             {
                 e.Handled = true;
@@ -56,7 +56,7 @@ namespace Calculadora
             if ((e.KeyChar == '.') && ((sender as TextBox).Text.IndexOf('.') > -1))
             {
                 e.Handled = true;
-            }
+            }*/
 
 
         }
