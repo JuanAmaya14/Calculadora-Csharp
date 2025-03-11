@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Calculadora
@@ -22,45 +15,6 @@ namespace Calculadora
             InitializeComponent();
         }
 
-        private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
-        {
-
-
-
-
-
-            /*if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) &&
-                (e.KeyChar != '.'))
-            {
-                e.Handled = true;
-            }
-
-            if ((e.KeyChar == '.') && ((sender as TextBox).Text.IndexOf('.') > -1))
-            {
-                e.Handled = true;
-            }*/
-
-
-        }
-
-        private void textBox2_KeyPress(object sender, KeyPressEventArgs e)
-        {
-
-
-           /* if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) &&
-                            (e.KeyChar != '.'))
-            {
-                e.Handled = true;
-            }
-
-            if ((e.KeyChar == '.') && ((sender as TextBox).Text.IndexOf('.') > -1))
-            {
-                e.Handled = true;
-            }*/
-
-
-        }
-
         private void Calculadora_Load(object sender, EventArgs e)
         {
 
@@ -72,13 +26,10 @@ namespace Calculadora
             D1 = Convert.ToDecimal(textBox1.Text);
             D2 = Convert.ToDecimal(textBox2.Text);
 
-          
-
-
 
             if (Sumar.Checked == true)
             {
-               
+
 
                 Result = (D1 + D2);
 
@@ -97,7 +48,7 @@ namespace Calculadora
 
             if (Multiplicar.Checked == true)
             {
-            
+
 
                 Result = (D1 * D2);
                 label3.Text = "El resultado es: " + Result;
@@ -106,7 +57,7 @@ namespace Calculadora
 
             if (Dividir.Checked == true)
             {
-               
+
 
                 Result = (D1 / D2);
                 label3.Text = "El resultado es: " + Result;
@@ -120,14 +71,10 @@ namespace Calculadora
             textBox2.Text = "";
             label3.Text = "El resultado es: ";
 
-           
-
             Sumar.Checked = false;
             Restar.Checked = false;
             Multiplicar.Checked = false;
             Dividir.Checked = false;
-
-
 
         }
 
@@ -136,6 +83,4 @@ namespace Calculadora
             Application.Exit();
         }
     }
-
-    
 }

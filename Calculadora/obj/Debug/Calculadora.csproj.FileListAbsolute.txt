@@ -18,3 +18,13 @@ C:\Users\JuanK\Desktop\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.Gene
 C:\Users\JuanK\Desktop\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.CoreCompileInputs.cache
 C:\Users\JuanK\Desktop\Calculadora\Calculadora\obj\Debug\Calculadora.exe
 C:\Users\JuanK\Desktop\Calculadora\Calculadora\obj\Debug\Calculadora.pdb
+C:\Users\User\Documents\Visual Studio 2022\CSharp\proyectosGithub\Calculadora-Csharp\Calculadora\bin\Debug\Calculadora.exe.config
+C:\Users\User\Documents\Visual Studio 2022\CSharp\proyectosGithub\Calculadora-Csharp\Calculadora\bin\Debug\Calculadora.exe
+C:\Users\User\Documents\Visual Studio 2022\CSharp\proyectosGithub\Calculadora-Csharp\Calculadora\bin\Debug\Calculadora.pdb
+C:\Users\User\Documents\Visual Studio 2022\CSharp\proyectosGithub\Calculadora-Csharp\Calculadora\obj\Debug\Calculadora.csproj.AssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2022\CSharp\proyectosGithub\Calculadora-Csharp\Calculadora\obj\Debug\Calculadora.Calculadora.resources
+C:\Users\User\Documents\Visual Studio 2022\CSharp\proyectosGithub\Calculadora-Csharp\Calculadora\obj\Debug\Calculadora.Properties.Resources.resources
+C:\Users\User\Documents\Visual Studio 2022\CSharp\proyectosGithub\Calculadora-Csharp\Calculadora\obj\Debug\Calculadora.csproj.GenerateResource.cache
+C:\Users\User\Documents\Visual Studio 2022\CSharp\proyectosGithub\Calculadora-Csharp\Calculadora\obj\Debug\Calculadora.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Visual Studio 2022\CSharp\proyectosGithub\Calculadora-Csharp\Calculadora\obj\Debug\Calculadora.exe
+C:\Users\User\Documents\Visual Studio 2022\CSharp\proyectosGithub\Calculadora-Csharp\Calculadora\obj\Debug\Calculadora.pdb
